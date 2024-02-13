@@ -1,0 +1,146 @@
+[
+  {
+    "Wave": 0,
+    "Name": "Lobby",
+    "Music": "mus_lobby",
+    "Boss": "",
+    "OreAmount": 1,
+    "DestroyLastWaveOres": true,
+    "IsRandomSpawn": false,
+    "MinSpawnDuration": 10,
+    "MaxSpawnDuration": 20,
+    "Ores": [
+      {
+        "OreId": "stone",
+        "Multiply": 1,
+        "XRandom": false,
+        "X": 640,
+        "YRandom": false,
+        "Y": 360
+      },
+      {
+        "OreId": "Wait",
+        "Delay": 9999999
+      }
+    ],
+    "Objects": [
+      {
+        "Object": "obj_shop",
+        "X": 240,
+        "Y": 360
+      }
+    ]
+  },
+  {
+    "Wave": 1,
+    "Name": "Wave: 1",
+    "Music": "mus_game_1",
+    "Boss": "",
+    "OreAmount": 5,
+    "DestroyLastWaveOres": true,
+    "IsRandomSpawn": true,
+    "MinSpawnDuration": 8,
+    "MaxSpawnDuration": 20,
+    "Ores": [
+      {
+        "OreId": "stone",
+        "Multiply": 1,
+        "XRandom": true,
+        "X": 320,
+        "YRandom": false,
+        "Y": 360
+      }
+    ],
+    "Objects": []
+  },
+  {
+    "Wave": 2,
+    "Name": "Wave: 2",
+    "Music": "mus_game_1",
+    "Boss": "",
+    "OreAmount": 7,
+    "DestroyLastWaveOres": false,
+    "IsRandomSpawn": false,
+    "MinSpawnDuration": 8,
+    "MaxSpawnDuration": 20,
+    "Ores": [
+      {
+        "OreId": "stone",
+        "Multiply": 1,
+        "XRandom": true,
+        "X": 320,
+        "YRandom": false,
+        "Y": 360
+      },
+      {
+        "OreId": "Wait",
+        "Delay": 8
+      },
+      {
+        "OreId": "stone",
+        "Multiply": 1,
+        "XRandom": true,
+        "X": 320,
+        "YRandom": false,
+        "Y": 360
+      },
+      {
+        "OreId": "Wait",
+        "Delay": 8
+      },
+      {
+        "OreId": "coal",
+        "Multiply": 1,
+        "XRandom": true,
+        "X": 320,
+        "YRandom": false,
+        "Y": 360
+      },
+      {
+        "OreId": "Wait",
+        "Delay": 15
+      },
+      {
+        "OreId": "coal",
+        "Multiply": 1,
+        "XRandom": true,
+        "X": 320,
+        "YRandom": false,
+        "Y": 360
+      },
+      {
+        "OreId": "Wait",
+        "Delay": 15
+      },
+      {
+        "OreId": "stone",
+        "Multiply": 1,
+        "XRandom": true,
+        "X": 320,
+        "YRandom": false,
+        "Y": 360
+      },
+      {
+        "OreId": "coal",
+        "Multiply": 1,
+        "XRandom": true,
+        "X": 320,
+        "YRandom": false,
+        "Y": 360
+      },
+      {
+        "OreId": "Wait",
+        "Delay": 15
+      },
+      {
+        "OreId": "coal",
+        "Multiply": 1,
+        "XRandom": true,
+        "X": 320,
+        "YRandom": false,
+        "Y": 360
+      }
+    ],
+    "Objects": []
+  }
+]
